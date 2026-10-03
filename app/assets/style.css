@@ -1,0 +1,23 @@
+/* Light custom styling for Last-Minute-Prep */
+
+.main .block-container {
+  padding-top: 2rem;
+  max-width: 1200px;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.01em;
+}
+
+/* Softer metric cards */
+div[data-testid="stMetric"] {
+  background: #f8fafc;
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
+
+/* Slightly bigger captions for readability */
+.stCaption {
+  color: #64748b !important;
+}

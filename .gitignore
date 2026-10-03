@@ -1,0 +1,41 @@
+# ===== Private course material (never commit) =====
+data/raw/**
+!data/raw/.gitkeep
+
+data/interim/**
+!data/interim/.gitkeep
+
+# Real labelled dataset (keep the sample!)
+data/processed/questions.csv
+data/processed/questions_features.csv
+data/processed/*.joblib
+
+# ===== Trained model binaries (regenerable) =====
+models/*.joblib
+!models/.gitkeep
+
+# ===== Python =====
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Streamlit / env =====
+.streamlit/secrets.toml
+.env
+
+# ===== macOS =====
+.DS_Store
+
+# ===== Tool-specific (not part of the project) =====
+.agents/
